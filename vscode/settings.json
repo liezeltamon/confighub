@@ -1,16 +1,17 @@
 {
     "remote.SSH.serverInstallPath": {
-        "bmrc1": "/well/immune-rep/users/yfg436"
+        "bmrc1": "/well/immune-rep/users/yfg436",
+        "bmrc2": "/well/immune-rep/users/yfg436"
     },
     "terminal.integrated.defaultLocation": "editor", // Opens terminal in the editor area
-    "terminal.integrated.tabs.defaultLocation": "right", // Positions terminal tabs on the right side
+    // "terminal.integrated.tabs.defaultLocation": "right", // Positions terminal tabs on the right side
+
+    "jupyter.interactiveWindow.creationMode": "perFile",
 
     // Ensure code selections are sent to the terminal instead of the interactive window
     // "python.dataScience.sendSelectionToInteractiveWindow": true,
-
     // Automatically activate the Python environment in the terminal
     // "python.terminal.activateEnvironment": true,
-
     // Enable shell integration for terminals running Python
     // "python.terminal.shellIntegration.enabled": true
 }
