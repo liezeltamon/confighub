@@ -1,4 +1,8 @@
 # Need to install locally and also in remotes
+
 GitHub Copilot
 GitHub Copilot Chat
 Python
+
+# To use jupyter-like cells, install extension or add to environment used as python interpreter and then install ipykernel package
+Jupyter 
