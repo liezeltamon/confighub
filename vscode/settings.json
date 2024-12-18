@@ -1,5 +1,5 @@
 {
-    "remote.SSH.serverInstallPath": {
+    "remote.SSH.serverInstallPath": { // Specify where .vscode-server is created
         "bmrc1": "/well/immune-rep/users/yfg436"
     },
     "terminal.integrated.defaultLocation": "editor", // Opens terminal in the editor area
