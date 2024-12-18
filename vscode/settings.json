@@ -1,0 +1,7 @@
+{
+    "remote.SSH.serverInstallPath": {
+        "bmrc1": "/well/immune-rep/users/yfg436"
+    },
+    "terminal.integrated.defaultLocation": "editor", // Opens terminal in the editor area
+    "terminal.integrated.tabs.defaultLocation": "right" // Positions terminal tabs on the right side
+}
