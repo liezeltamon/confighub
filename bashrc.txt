@@ -1,3 +1,7 @@
-# To specify directory where to look for dynamic libraries
-# Sets the LD_LIBRARY_PATH environment variable to current conda/mamba environment's lib directory
-export LD_LIBRARY_PATH=$CONDA_PREFIX/lib
+# If some dynamic libraries can't be found, install to base environment then add/append base environment's lib directory to LD_LIBRARY_PATH
+CONDA_LIB_PATH=$CONDA_PREFIX/lib
+if [ -z "$LD_LIBRARY_PATH" ]; then
+    export LD_LIBRARY_PATH="$CONDA_LIB_PATH"
+else
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$CONDA_LIB_PATH"
+fi
