@@ -6,4 +6,5 @@ Python
 
 # To use jupyter-like cells, install extension or add to environment used as python interpreter and then install ipykernel package
 # See https://code.visualstudio.com/docs/python/jupyter-support-py
-Jupyter 
+Jupyter
+ipykernel
