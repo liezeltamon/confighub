@@ -6,3 +6,5 @@ Editor font: PTMono-Regular
 Editor font size: 10
 Help panel font size: 10
 Editor theme: Merbivore
+
+Swap Console (top right) and Environment (bottom left) panels
