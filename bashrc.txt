@@ -1,3 +1,6 @@
+# Extra safety net to avoid accidentally removing files or directories
+alias rm="rm -i"
+
 # If some dynamic libraries can't be found, install to base environment then add/append base environment's lib directory to LD_LIBRARY_PATH
 CONDA_LIB_PATH=$CONDA_PREFIX/lib
 if [ -z "$LD_LIBRARY_PATH" ]; then
