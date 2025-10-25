@@ -1,6 +1,12 @@
 # Extra safety net to avoid accidentally removing files or directories
 alias rm="rm -i"
 
+# Python pip configuration - install packages to custom location
+export PIP_TARGET="/gpfs3/well/immune-rep/users/yfg436/.cache/pip"
+export PYTHONPATH="/gpfs3/well/immune-rep/users/yfg436/.cache/pip:$PYTHONPATH"
+# Disable user site-packages to prevent ~/.local installations
+export PYTHONNOUSERSITE=1
+
 # If some dynamic libraries can't be found, install to base environment then add/append base environment's lib directory to LD_LIBRARY_PATH
 CONDA_LIB_PATH=$CONDA_PREFIX/lib
 if [ -z "$LD_LIBRARY_PATH" ]; then
