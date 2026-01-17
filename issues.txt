@@ -1,0 +1,6 @@
+X11 error when plotting in clusters
+- x11 problem fixed by cairo in clusters
+
+Using QMD/RMD
+- Note that installing tinytex R package useful for rendering Rmd into pdfs
+- Solution to QMD and RMD requiring data reference to be not outside where source file is [link](https://github.com/kostas-moschonas/quarto_doc_directory_issue/issues)
